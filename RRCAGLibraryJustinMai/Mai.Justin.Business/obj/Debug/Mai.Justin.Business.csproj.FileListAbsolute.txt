@@ -1,0 +1,14 @@
+D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.dll
+D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.pdb
+D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\obj\Debug\Mai.Justin.Business.csproj.CoreCompileInputs.cache
+D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\obj\Debug\Mai.Justin.Business.dll
+D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\obj\Debug\Mai.Justin.Business.pdb
+D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.xml
+D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\obj\Debug\Mai.Justin.Business.csproj.AssemblyReference.cache
+D:\OneDrive - Red River College\ADEV-2008\Module4\Learning Activities\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.xml
+D:\OneDrive - Red River College\ADEV-2008\Module4\Learning Activities\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.dll
+D:\OneDrive - Red River College\ADEV-2008\Module4\Learning Activities\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.pdb
+D:\OneDrive - Red River College\ADEV-2008\Module4\Learning Activities\RRCAGLibraryJustinMai\Mai.Justin.Business\obj\Debug\Mai.Justin.Business.csproj.AssemblyReference.cache
+D:\OneDrive - Red River College\ADEV-2008\Module4\Learning Activities\RRCAGLibraryJustinMai\Mai.Justin.Business\obj\Debug\Mai.Justin.Business.csproj.CoreCompileInputs.cache
+D:\OneDrive - Red River College\ADEV-2008\Module4\Learning Activities\RRCAGLibraryJustinMai\Mai.Justin.Business\obj\Debug\Mai.Justin.Business.dll
+D:\OneDrive - Red River College\ADEV-2008\Module4\Learning Activities\RRCAGLibraryJustinMai\Mai.Justin.Business\obj\Debug\Mai.Justin.Business.pdb

@@ -1,0 +1,396 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mai.Justin.Business</name>
+    </assembly>
+    <members>
+        <member name="T:Mai.Justin.Business.Accessories">
+            <summary>
+            Accessories enumeration
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.Accessories.StereoSystem">
+            <summary>
+            The stereo system accessory
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.Accessories.LeatherInterior">
+            <summary>
+            The leather interior accessory
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.Accessories.StereoAndLeather">
+            <summary>
+            The stereo system and leather interior accessories
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.Accessories.ComputerNavigation">
+            <summary>
+            The computer navigation accessory
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.Accessories.StereoAndNavigation">
+            <summary>
+            The stereo system and computer navigation accessories
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.Accessories.LeatherAndNavigation">
+            <summary>
+            The leather interior and computer navigation accessories
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.Accessories.All">
+            <summary>
+            All the accessories
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.Accessories.None">
+            <summary>
+            None of the accessories
+            </summary>
+        </member>
+        <member name="T:Mai.Justin.Business.CarWashInvoice">
+            <summary>
+            The CarWashInvoice class derives from the Invoice class
+            </summary>
+        </member>
+        <member name="E:Mai.Justin.Business.CarWashInvoice.PackageCostChanged">
+            <summary>
+            Occurs when the package cost changes.
+            </summary>
+        </member>
+        <member name="E:Mai.Justin.Business.CarWashInvoice.FragranceCostChanged">
+            <summary>
+            Occurs when the fragrance cost changes.
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.CarWashInvoice.PackageCost">
+            <summary>
+            Gets and sets the amount charged for the chosen package.
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.CarWashInvoice.FragranceCost">
+            <summary>
+            Gets and sets the amount charged for the chosen fragrance.
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.CarWashInvoice.ProvincialSalesTaxCharged">
+            <summary>
+            Gets the amount of provincial sales tax charged to the customer. No provincial sales tax is charged for a car wash.
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.CarWashInvoice.GoodsAndServicesTaxCharged">
+            <summary>
+            Gets the amount of goods and services tax charged to the customer
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.CarWashInvoice.SubTotal">
+            <summary>
+            Gets the subtotal of the Invoice. The subtotal is the sum of the package and fragrance cost.
+            </summary>
+        </member>
+        <member name="M:Mai.Justin.Business.CarWashInvoice.Initialize_Constructor(System.Decimal,System.Decimal)">
+            <summary>
+            Create a method to set values of vehicle packageCost, fragranceCost
+            </summary>
+            <param name="packageCost">The amount charged for the chosen package.</param>
+            <param name="fragranceCost">The amount charged for the chosen fragrance.</param>
+        </member>
+        <member name="M:Mai.Justin.Business.CarWashInvoice.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            Initializes an instance of CarWashInvoice with a provincial and goods and services tax rates
+            </summary>
+            <param name="provincialSalesTaxRate"></param>
+            <param name="goodsAndServicesTaxRate"></param>
+            <param name="packageCost">The amount charged for the chosen package = 0</param>
+            <param name="fragranceCost">The amount charged for the chosen fragrance = 0</param>
+        </member>
+        <member name="M:Mai.Justin.Business.CarWashInvoice.#ctor(System.Decimal,System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            Initializes an instance of CarWashInvoice with a provincial and goods, services tax rate, package cost and fragrance cost
+            </summary>
+            <param name="provincialSalesTaxRate">The rate of provincial tax charged to a customer.</param>
+            <param name="goodsAndServicesTaxRate">he rate of goods and services tax charged to a customer.</param>
+            <param name="packageCost">The cost of the chosen package.</param>
+            <param name="fragranceCost">The cost of the chosen fragrance.</param>
+        </member>
+        <member name="M:Mai.Justin.Business.CarWashInvoice.OnPackageCostChanged">
+            <summary>
+            Raises the PackageCostChanged event.
+            </summary>
+        </member>
+        <member name="M:Mai.Justin.Business.CarWashInvoice.OnFragranceCostChanged">
+            <summary>
+            Raises the FragranceCostChanged event.
+            </summary>
+        </member>
+        <member name="T:Mai.Justin.Business.Financial">
+            <summary>
+            This static class contains functionality that includes financial functions.
+            </summary>
+        </member>
+        <member name="M:Mai.Justin.Business.Financial.GetPayment(System.Decimal,System.Int32,System.Decimal)">
+            <summary>
+            Returns the payment amount for an annuity based on periodic, fixed payments and a fixed interest rate.
+            </summary>
+            <param name="rate"> the interest rate per period</param>
+            <param name="numberOfPaymentPeriods">the total number of payment periods in the annuity</param>
+            <param name="presentValue">the present value (or lump sum) that a series of payments to be paid in the future is worth now</param>
+            <returns></returns>
+        </member>
+        <member name="T:Mai.Justin.Business.ExteriorFinish">
+            <summary>
+            Exterior Finish enumeration
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.ExteriorFinish.Standard">
+            <summary>
+            The standard exterior finish
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.ExteriorFinish.Pearlized">
+            <summary>
+            The pearlized exterior finish
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.ExteriorFinish.Custom">
+            <summary>
+            The custom exterior finish
+            </summary>
+        </member>
+        <member name="F:Mai.Justin.Business.ExteriorFinish.None">
+            <summary>
+            None of the exterior finishes
+            </summary>
+        </member>
+        <member name="T:Mai.Justin.Business.Invoice">
+            <summary>
+            Abstract class Invoice
+            </summary>
+        </member>
+        <member name="E:Mai.Justin.Business.Invoice.ProvincialSalesTaxRateChanged">
+            <summary>
+            Occurs when the provincial sales tax rate of the Invoice changes.
+            </summary>
+        </member>
+        <member name="E:Mai.Justin.Business.Invoice.GoodsAndServicesTaxRateChanged">
+            <summary>
+             Occurs when the goods and services tax rate of the Invoice changes.
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.Invoice.ProvincialSalesTaxRate">
+            <summary>
+             Gets and sets the provincial sales tax rate.
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.Invoice.GoodsAndServicesTaxRate">
+            <summary>
+            Gets and sets the goods and services tax rate.
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.Invoice.ProvincialSalesTaxCharged">
+            <summary>
+            Gets the amount of provincial sales tax charged to the customer
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.Invoice.GoodsAndServicesTaxCharged">
+            <summary>
+            Gets the amount of goods and services tax charged to the customer 
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.Invoice.SubTotal">
+            <summary>
+            Gets the subtotal of the Invoice.
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.Invoice.Total">
+            <summary>
+            Gets the total of the Invoice. The total is the sum of the subtotal and taxes.
+            </summary>
+        </member>
+        <member name="M:Mai.Justin.Business.Invoice.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            Initializes an instance of Invoice with a provincial and goods and services tax rates.
+            </summary>
+            <param name="provincialSalesTaxRate">The rate of provincial tax charged to a customer.</param>
+            <param name="goodsAndServicesTaxRate">The rate of goods and services tax charged to a customer.</param>
+        </member>
+        <member name="M:Mai.Justin.Business.Invoice.OnProvincialSalesTaxRateChanged">
+            <summary>
+            Raises the ProvincialSalesTaxRateChanged event.
+            </summary>
+        </member>
+        <member name="M:Mai.Justin.Business.Invoice.OnGoodsAndServicesTaxRateChanged">
+            <summary>
+            Raises the GoodsAndServicesTaxRateChanged event.
+            </summary>
+        </member>
+        <member name="T:Mai.Justin.Business.SalesQuote">
+            <summary>
+            A quote for the sale of a vehicle
+            </summary>
+        </member>
+        <member name="E:Mai.Justin.Business.SalesQuote.VehiclePriceChanged">
+            <summary>
+            Occurs when the price of the vehicle being quoted on changes.
+            </summary>
+        </member>
+        <member name="E:Mai.Justin.Business.SalesQuote.TradeInAmountChanged">
+            <summary>
+             Occurs when the amount for the trade in vehicle changes.
+            </summary>
+        </member>
+        <member name="E:Mai.Justin.Business.SalesQuote.AccessoriesChosenChanged">
+            <summary>
+            Occurs when the chosen accessories change.
+            </summary>
+        </member>
+        <member name="E:Mai.Justin.Business.SalesQuote.ExteriorFinishChosenChanged">
+            <summary>
+             Occurs when the chosen exterior finish changes.
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.VehicleSalePrice">
+            <summary>
+            Property of vehicleSalePrice
+            <param name="value">Sets the sale price of the vehicle</param>
+            </summary>
+            <return>The selling price of the vehicle being sold in decimal</return>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.TradeInAmount">
+            <summary>
+            Property of tradeInAmount
+            <param name="= value=value">The selling price of the vehicle</param>
+            </summary>
+            <return>The amount for the trade in of customer's vehicle in decimal</return>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.AccessoriesChosen">
+            <summary>
+            Property of the accessories chosen
+            <param name="value">The chosen accessories</param>
+            </summary>
+            <return>The value of the chosen accessories</return>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.ExteriorFinishChosen">
+            <summary>
+            Property of the exterior chosen
+            <param name="value">The chosen exterior finish</param>
+            </summary>
+            <return>The value of the chosen exterior finish</return>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.AccessoryCost">
+            <summary>
+            Property of AccessoryCost
+            </summary>
+            <return>
+            Stereo System - $505.05
+            Leather Interior - $1010.10
+            Computer Navigation - $1515.15
+            StereoAndLeather - 1515.15
+            StereoAndNavigation - 2020.20
+            LeatherAndNavigation - 2525.25
+            All - 3030.30
+            None - 0
+            </return>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.FinishCost">
+            <summary>
+            Property of exterior finish chosen
+            </summary>
+            <returns>
+            Standard - $202.02
+            Pearlied - $404.04
+            Custom - $606.06
+            None - 0
+            </returns>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.TotalOptions">
+            <summary>
+            The sum of Accessories and Exterior Finish costs
+            Rounded to two decimal places
+            </summary>
+            <returns>Returns the sum of the cost of accessories chosen and the chose of the exterior finish chosen</returns>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.SubTotal">
+            <summary>
+            Sum of the vehicle's sale prices, accessories and exterior finish costs
+            Rounded to two decimal places
+            </summary>
+            <returns>Returns the sum of the vehicle's sale price, accessories and exterior finish costs</returns>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.SalesTax">
+            <summary>
+            The amount of tax to charge based on the subtotal
+            Rounded to two decimal places
+            <returns>Returns the amount of tax to charge</returns>
+            </summary>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.Total">
+            <summary>
+            The sum of the subtotal and taxes
+            Rounded to two decimal places
+            </summary>
+            <returns>Returns the sum of the subtotal and taxes</returns>
+        </member>
+        <member name="P:Mai.Justin.Business.SalesQuote.AmountDue">
+            <summary>
+            The difference of the total and trade-in amount
+            Rounded to two decimal places
+            </summary>
+            <returns> Returns the difference of the total and trade-in amount</returns>
+        </member>
+        <member name="M:Mai.Justin.Business.SalesQuote.Initialize_Constructor(System.Decimal,System.Decimal,System.Decimal,Mai.Justin.Business.Accessories,Mai.Justin.Business.ExteriorFinish)">
+            <summary>
+            Create a method to set values of vehicle Sale Price, Trade-in amount, sales Tax Rate, accessories chosen, exterior finish chosen
+            This method to recall in constructors to avoid the duplications of the code
+            </summary>
+            <param name="vehicleSalePrice">The selling price of the vehicle being sold</param>
+            <param name="tradeInAmount">The amount offered to the customer for the trade in of their vehicle</param>
+            <param name="salesTaxRate">The tax rate applied to the sale of a vehicle</param>
+            <param name="accessoriesChosen">The value of the chosen accessories</param>
+            <param name="exteriorFinishChosen">The value of the chosen exterior finish</param>
+        </member>
+        <member name="M:Mai.Justin.Business.SalesQuote.#ctor(System.Decimal,System.Decimal,System.Decimal,Mai.Justin.Business.Accessories,Mai.Justin.Business.ExteriorFinish)">
+            <summary>
+            Initializes an instance of Sale Quote class with a specified vehicle sale price, Trade in amount,
+            sale tax rate, accessories chosen and exterior finish by calling Initialize_Constructor method
+            </summary>
+            <param name="vehicleSalePrice">The selling price of the vehicle being sold</param>
+            <param name="tradeInAmount">The amount offered to the customer for the trade in of their vehicle</param>
+            <param name="salesTaxRate">The tax rate applied to the sale of a vehicle</param>
+            <param name="accessoriesChosen">The value of the chosen accessories</param>
+            <param name="exteriorFinishChosen">The value of the chosen exterior finish</param>
+        </member>
+        <member name="M:Mai.Justin.Business.SalesQuote.#ctor(System.Decimal,System.Decimal,System.Decimal)">
+            <summary>
+            Initializes an instance of Sale Quote class with a specified vehicle sale price, trade in amount,
+            and the sale tax rate by calling the Initialize_Constructor method
+            </summary>
+            <param name="vehicleSalePrice">The selling price of the vehicle being sold</param>
+            <param name="tradeInAmount">The amount offered to the customer for the trade in of their vehicle</param>
+            <param name="salesTaxRate">The tax rate applied to the sale of a vehicle</param>
+            <param name="accessoriesChosen">The value of the chosen accessories is set to 0</param>
+            <param name="exteriorFinishChosen">The value of the chosen exterior finish is set to 0</param>
+        </member>
+        <member name="M:Mai.Justin.Business.SalesQuote.OnVehiclePriceChanged">
+            <summary>
+            Raises the VehiclePriceChanged event.
+            </summary>
+        </member>
+        <member name="M:Mai.Justin.Business.SalesQuote.OnTradeInAmountChanged">
+            <summary>
+            Raises the TradeInAmountChanged event.
+            </summary>
+        </member>
+        <member name="M:Mai.Justin.Business.SalesQuote.OnAccessoriesChosenChanged">
+            <summary>
+            Raises the AccessoriesChosenChanged event.
+            </summary>
+        </member>
+        <member name="M:Mai.Justin.Business.SalesQuote.OnExteriorFinishChosenChanged">
+            <summary>
+            Raises the ExteriorFinishChosenChanged event.
+            </summary>
+        </member>
+    </members>
+</doc>

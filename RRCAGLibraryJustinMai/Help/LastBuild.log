@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Library document.shfbproj" started="2/19/2022 3:05:10 PM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Locating components in the following folder(s):
+    D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2022.2.6.0
+Copyright &#169; 2006-2022, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.dll
+    Found assembly &#39;D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.dll&#39;
+Source: D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.xml
+
+References to include:
+    Mai.Justin.Business
+
+Copying XML comments files
+    D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Mai.Justin.Business\bin\Debug\Mai.Justin.Business.xml -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Mai.Justin.Business.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0858
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0199
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[D:\Program Files\Vistual Studio\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-606e4386-05c0-4a5c-b321-92031554c6d8.proj]
+Build started 2/19/2022 3:05:12 PM.
+Project &quot;D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\GenerateRefInfo-606e4386-05c0-4a5c-b321-92031554c6d8.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  No suggested binding redirects from ResolveAssemblyReferences.
+GenerateRefInfo:
+  Microsoft.Build (v17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428)
+  c Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 2 dependency assemblies.
+  Wrote information on 1 namespaces, 6 types, and 40 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Done Building Project &quot;D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\GenerateRefInfo-606e4386-05c0-4a5c-b321-92031554c6d8.proj&quot; (default targets).
+    Last step completed in 00:00:02.9222
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00.0678
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00.0289
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00.0329
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0399
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0060
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00.0349
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00.5156
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0628
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[D:\Program Files\Vistual Studio\MSBuild\Current\Bin\amd64\MSBuild.exe - BuildTopics.proj]
+Build started 2/19/2022 3:05:15 PM.
+Project &quot;D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  Microsoft.Build (v17.0.0+c9eb9dd64e9a2e8a433900a1a626d65a2bce4428)
+  c Microsoft Corporation. All rights reserved.
+  Loading configuration...
+  ResolveReferenceLinksComponent: The member ID URL cache &#39;C:\Users\maing\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MemberIdUrl.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:Mai.Justin.Business] Missing &lt;summary&gt; documentation [D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mai.Justin.Business.CarWashInvoice.#ctor(System.Decimal,System.Decimal)] Missing &lt;param name=&quot;provincialSalesTaxRate&quot;/&gt; documentation [D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mai.Justin.Business.CarWashInvoice.#ctor(System.Decimal,System.Decimal)] Missing &lt;param name=&quot;goodsAndServicesTaxRate&quot;/&gt; documentation [D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mai.Justin.Business.Financial.GetPayment(System.Decimal,System.Int32,System.Decimal)] Missing &lt;returns&gt; documentation [D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Mai.Justin.Business.SalesQuote.#ctor(System.Decimal,System.Decimal,System.Decimal)] Missing &lt;param name=&quot;SalesTaxRate&quot;/&gt; documentation [D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\BuildTopics.proj]
+  Processed 44 topic(s)
+  5 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 2 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+  ResolveReferenceLinksComponent: 10 entries added to the member ID URL cache.  New cache size: 10 entries
+Done Building Project &quot;D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\BuildTopics.proj&quot; (default targets).
+    Last step completed in 00:00:12.9250
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0020
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[D:\Program Files\Vistual Studio\MSBuild\Current\Bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
+    Last step completed in 00:00:00.7480
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertCaution.png -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertNote.png -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertSecurity.png -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CFW.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CodeExample.png -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\favicon.ico -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privclass.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privdelegate.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privenumeration.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privevent.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privextension.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privfield.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privinterface.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privmethod.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privproperty.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privstructure.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protclass.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protdelegate.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protenumeration.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protevent.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protextension.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protfield.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protinterface.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protmethod.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protoperator.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protproperty.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protstructure.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubclass.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubdelegate.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubenumeration.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubevent.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubextension.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubfield.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubinterface.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubmethod.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\puboperator.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubproperty.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubstructure.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionCollapsed.png -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionExpanded.png -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\slMobile.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\static.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\xna.gif -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\scripts\branding.js -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-cs-CZ.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-de-DE.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-en-US.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-es-ES.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-fr-FR.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Help1.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-HelpViewer.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-it-IT.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ja-JP.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ko-KR.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pl-PL.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pt-BR.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ru-RU.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-tr-TR.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Website.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; D:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00.3501
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00.0140
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[D:\Program Files\Vistual Studio\MSBuild\Current\Bin\amd64\MSBuild.exe - Build1xHelpFile.proj]
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling d:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\Documentation A2.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 0 seconds
+  
+  46	Topics
+  
+  466	Local links
+  
+  0	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created d:\OneDrive - Red River College\ADEV-2008\Module2\Project\RRCAGLibraryJustinMai\Help\Working\Output\HtmlHelp1\Documentation A2.chm, 99,503 bytes
+  
+  Compression decreased file by 346,344 bytes.
+  
+    Last step completed in 00:00:01.9618
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.0259
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 2/19/2022 3:05:31 PM.  Total time: 00:00:20.7989
+
+</buildStep>
+</shfbBuild>
